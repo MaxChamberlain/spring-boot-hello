@@ -12,4 +12,11 @@ public class HelloWorldController {
         return "Greetings from Spring Boot!";
     }
 
+    @RequestMapping("/login")
+    public String login() {
+        return "<h1>Login Page</h1>";
+    }
+
+
+
 }
